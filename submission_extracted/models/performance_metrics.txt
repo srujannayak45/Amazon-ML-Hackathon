@@ -1,0 +1,6 @@
+Cross-validated SMAPE: 47.56%
+Fold 1 SMAPE: 48.07%
+Fold 2 SMAPE: 43.14%
+Fold 3 SMAPE: 44.63%
+Fold 4 SMAPE: 54.14%
+Fold 5 SMAPE: 47.85%

@@ -1,0 +1,37 @@
+# Product Pricing Model Configuration
+
+paths:
+  train_data: '../student_resource/dataset/train.csv'
+  test_data: '../student_resource/dataset/test.csv'
+  image_dir: '../student_resource/dataset/train_images'
+  output_dir: '../models'
+
+model:
+  type: 'ensemble'
+  estimators:
+    - 'lightgbm'
+    - 'xgboost'
+  target_column: 'price'
+  target_transform: 'log'
+  
+features:
+  text_features: true
+  category_features: true
+  image_features: true
+  numeric_features: true
+  
+training:
+  cv_folds: 5
+  random_state: 42
+  test_size: 0.2
+  
+hyperparameters:
+  lightgbm:
+    learning_rate: 0.05
+    max_depth: 8
+    num_leaves: 31
+    n_estimators: 500
+  xgboost:
+    learning_rate: 0.05
+    max_depth: 8
+    n_estimators: 500

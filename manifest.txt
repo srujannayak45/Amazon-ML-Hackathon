@@ -1,0 +1,33 @@
+# Product Pricing Model Submission
+
+This file lists all contents of the submission package.
+
+## Files
+
+- test_out.csv: Predictions on the test set
+- README.md: Project documentation
+- LICENSE: MIT License
+- Methodology_1page.pdf: One-page explanation of the methodology
+
+## Directories
+
+- inference/
+  - run_inference.py: Main inference script
+  - predict_utils.py: Utility functions for prediction
+  - requirements.txt: Dependencies for inference
+
+- models/
+  - best_model/
+    - model_metadata.json: Metadata for the best model
+    - product_pricing_model.pkl: Trained model
+
+- src/
+  - train.py: Training script
+  - featurize.py: Feature extraction utilities
+  - utils.py: General utility functions
+
+- notebooks/
+  - sample_inference.ipynb: Example notebook showing how to use the model
+
+- evaluation/
+  - local_eval.py: Script for local evaluation of model predictions

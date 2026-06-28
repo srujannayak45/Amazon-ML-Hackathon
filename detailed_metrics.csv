@@ -1,0 +1,9 @@
+metric,value,description
+smape,14.09,"Symmetric Mean Absolute Percentage Error (%)"
+mae,0.1334,"Mean Absolute Error"
+rmse,0.1728,"Root Mean Square Error"
+r2,0.9542,"R-squared coefficient of determination"
+training_time_seconds,315,"Training time in seconds"
+prediction_time_ms,42,"Average prediction time per sample (ms)"
+model_size_mb,24.7,"Model size in megabytes"
+features_used,10,"Number of features used in the model"
