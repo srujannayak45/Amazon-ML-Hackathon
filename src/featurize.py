@@ -253,7 +253,7 @@ class FeatureExtractor:
         
         # Extract image features
         image_features = self._extract_image_features(df)
-        
+         
         # Combine features
         combined = pd.concat([text_features, image_features], axis=1)
         
